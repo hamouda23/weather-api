@@ -86,8 +86,8 @@ def main():
     print("Apprendre les bases des APIs HTTP\n")
     
     # Coordonnées de Montréal (tu peux changer !)
-    lat = 45.5017
-    lon = -73.5673
+    lat = 45.50884  #45.5017
+    lon = -73.58781 #-73.5673
     
     # 1. Appeler l'API
     data = get_weather(lat, lon)
